@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Page\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/subscribe', [PageController::class, 'subscribe'])->name('subscribe');
+Route::post('/subscribe', [PageController::class, 'subscribeStore'])->name('subscribe.store');
