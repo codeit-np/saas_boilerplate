@@ -1,7 +1,5 @@
 ## SAAS Multi Database Boilarplate
-
 # How to use it
-
 1. git clone https://github.com/codeit-np/saas_boilarplate.git
 2. composer update
 3. php artisan migrate
@@ -10,5 +8,4 @@
 6. $tenant1->domains()->create(['domain' => 'localhost']);
 
 ## Now create Tenant and Domain with this url
-
 http://localhost:8000/subscribe
