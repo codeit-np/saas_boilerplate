@@ -11,7 +11,7 @@
 5. Rename your database name in .env file
 6. php artisan migrate
 7. php artisan tinker
-8. $tenant1 = App\Models\Tenant::create(['id' => 'foo','name'=>'admin','email'=>'admin@gmail.com','password'=>'password']);
+8. $tenant1 = App\Models\Tenant::create(['id' => 'admin','name'=>'admin','email'=>'admin@gmail.com','password'=>'password']);
 9. $tenant1->domains()->create(['domain' => 'localhost']);
 10. php artisan serve
 
