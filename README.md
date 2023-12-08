@@ -19,7 +19,7 @@ http://localhost:8000/admin/login
 email: admin@gmail.com
 password: password
 
-# To fix amdin login UI
+# To fix admin login UI
 
 asset_helper_tenancy = false in config/tenancy.php
 
