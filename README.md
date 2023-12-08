@@ -1,6 +1,4 @@
-## SAAS Multi Database Boilarplate
-
-# Project : Filament with stancl/tenancy Package Manager
+## SAAS Multi Database Boilarplate from Filament with stancl/tenancy Package Manager
 
 # How to use it
 
@@ -18,7 +16,8 @@
 Admin Panel
 http://localhost:8000/admin/login
 
-you can create new admin with sign up account
+email: admin@gmail.com
+password: password
 
 # To fix amdin login UI
 
