@@ -26,6 +26,6 @@ asset_helper_tenancy = false in config/tenancy.php
 User Panel
 http://localhost:8000/user/login
 
-## Create Tenant and Domain
+## Create Tenant and Domains
 
 http://localhost:8000/subscribe
